@@ -2,7 +2,7 @@
     [id]           INT              IDENTITY (1, 1) NOT NULL,
     [ship_code]    NVARCHAR (100)   NOT NULL,
     [comment]      NVARCHAR (MAX)   NOT NULL,
-    [star]         BIT              CONSTRAINT [DF_ship_feedbacks_is_star] DEFAULT ((0)) NOT NULL,
+    [is_star]      BIT              CONSTRAINT [DF_ship_feedbacks_is_star] DEFAULT ((0)) NOT NULL,
     [is_active]    BIT              CONSTRAINT [DF_ship_feedbacks_is_active] DEFAULT ((1)) NOT NULL,
     [updated_date] DATETIME         CONSTRAINT [DF_ship_feedbacks_updated_date] DEFAULT (getdate()) NOT NULL,
     [updated_by]   UNIQUEIDENTIFIER NOT NULL,
