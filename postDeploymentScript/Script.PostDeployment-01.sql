@@ -120,3 +120,19 @@ BEGIN
 	DROP TABLE #shipPurposeToSeed;
 
 END
+
+-- seed ship contracts data (script generated from Sql Studio)
+INSERT [dbo].[ship_contracts] ([id], [ship_code], [ship_purpose_code], [contract_start], [contract_end], [updated_date], [updated_by]) VALUES (N'fdfb08fe-a4ad-4b44-b64e-12fe28dcba1d', N'moby-dick', N'pirate', CAST(N'2023-06-21' AS Date), CAST(N'2023-07-21' AS Date), CAST(N'2023-02-28T10:49:49.713' AS DateTime), @updated_by)
+GO
+INSERT [dbo].[ship_contracts] ([id], [ship_code], [ship_purpose_code], [contract_start], [contract_end], [updated_date], [updated_by]) VALUES (N'010c7715-bf3b-4dc8-9a87-963018f0dbee', N'oro-jackson', N'pirate', CAST(N'2023-07-01' AS Date), CAST(N'2023-12-31' AS Date), CAST(N'2023-02-28T10:54:16.980' AS DateTime), @updated_by)
+GO
+INSERT [dbo].[ship_contracts] ([id], [ship_code], [ship_purpose_code], [contract_start], [contract_end], [updated_date], [updated_by]) VALUES (N'0976f812-e310-436e-a196-adf66e15ed29', N'oro-jackson', N'fishing', CAST(N'2023-06-01' AS Date), CAST(N'2023-06-30' AS Date), CAST(N'2023-02-28T11:14:19.207' AS DateTime), @updated_by)
+GO
+INSERT [dbo].[ship_contracts] ([id], [ship_code], [ship_purpose_code], [contract_start], [contract_end], [updated_date], [updated_by]) VALUES (N'953ea378-f70a-4344-85da-c2e5ea03ef69', N'red-force', N'maritime-logistic', CAST(N'2023-07-01' AS Date), CAST(N'2023-12-31' AS Date), CAST(N'2023-02-28T10:53:17.120' AS DateTime), @updated_by)
+GO
+INSERT [dbo].[ship_contracts] ([id], [ship_code], [ship_purpose_code], [contract_start], [contract_end], [updated_date], [updated_by]) VALUES (N'991bc034-c105-4e8e-bcdc-ce8a1ccb7b68', N'thousand-sunny', N'fishing', CAST(N'2023-07-01' AS Date), CAST(N'2023-12-31' AS Date), CAST(N'2023-02-28T10:53:57.877' AS DateTime), @updated_by)
+GO
+INSERT [dbo].[ship_contracts] ([id], [ship_code], [ship_purpose_code], [contract_start], [contract_end], [updated_date], [updated_by]) VALUES (N'64947e4f-71c6-468e-8888-e080fdb537e5', N'oro-jackson', N'pirate', CAST(N'2023-05-01' AS Date), CAST(N'2023-05-31' AS Date), CAST(N'2023-02-28T11:01:40.553' AS DateTime), @updated_by)
+GO
+INSERT [dbo].[ship_contracts] ([id], [ship_code], [ship_purpose_code], [contract_start], [contract_end], [updated_date], [updated_by]) VALUES (N'63a750b6-4e1e-4551-97ac-fbee23fdc4f7', N'red-force', N'maritime-security', CAST(N'2023-01-01' AS Date), CAST(N'2023-06-30' AS Date), CAST(N'2023-02-28T10:52:57.593' AS DateTime), @updated_by)
+GO
