@@ -9,8 +9,11 @@
     CONSTRAINT [PK_ship_contracts] PRIMARY KEY CLUSTERED ([id] ASC),
     CONSTRAINT [FK_ship_contracts_ship_purposes] FOREIGN KEY ([ship_purpose_code]) REFERENCES [dbo].[ship_purposes] ([code]),
     CONSTRAINT [FK_ship_contracts_ships] FOREIGN KEY ([ship_code]) REFERENCES [dbo].[ships] ([code]),
-    CONSTRAINT [FK_ship_contracts_users] FOREIGN KEY ([updated_by]) REFERENCES [dbo].[users] ([id])
+    CONSTRAINT [FK_ship_contracts_users] FOREIGN KEY ([updated_by]) REFERENCES [dbo].[users] ([id]),
+    CONSTRAINT [UK_ship_contracts_ship_code_contract_date] UNIQUE NONCLUSTERED ([ship_code] ASC, [contract_start] ASC, [contract_end] ASC)
 );
+
+
 
 
 GO
