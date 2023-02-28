@@ -72,4 +72,7 @@
   <ItemGroup>
     <PostDeploy Include="postDeploymentScript\Script.PostDeployment-01.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
 </Project>
