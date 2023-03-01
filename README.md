@@ -20,10 +20,6 @@ This repository showcases:
 - Visual Studio Database Project
 - Microsoft SQL Server
 
-## Detailed documentation of this boilerplate is available here:
-
-- [TODO]()
-
 # **Getting Started**
 
 ## Tools and Software
