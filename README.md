@@ -41,15 +41,14 @@ This repository showcases:
 
 1. Please use Visual Studio for full support.
 2. Make sure `Data storage and processing` workload is installed.
-   ![vs-data-workload](readme_assets/vs-data-workload.png)
+   > ![vs-data-workload](readme_assets/vs-data-workload.png)
 3. Open the `AzFuncBoilerplate-Db.sln` solution.
 4. Ensure build is successfull.
-   ![save-solution](readme_assets/save-solution.png)
+   > ![save-solution](readme_assets/save-solution.png)
 5. Publish the database to your local server.
-   ![publish-db-01](readme_assets/publish-db-01.png)
-   ![publish-db-02](readme_assets/publish-db-02.png)
+   > ![publish-db-01](readme_assets/publish-db-01.png) > ![publish-db-02](readme_assets/publish-db-02.png)
 6. Successfully deployed.
-   ![success-db-deploy](readme_assets/success-db-deploy.png)
+   > ![success-db-deploy](readme_assets/success-db-deploy.png)
 
 ## Access the database data via API
 
@@ -57,8 +56,7 @@ This repository showcases:
    https://github.com/safwanmasarik/Azure-Function-Boilerplate-Api.
 2. An issue that may be faced is the API is unable to connect to local database at port 1443, as the db refuses the connection.
 3. To solve this, open the [SQL Server Configuration Manager](https://learn.microsoft.com/en-us/sql/relational-databases/sql-server-configuration-manager?view=sql-server-ver16) as an administrator and enable TCP connections which are disabled by default.
-   ![sql-server-manager](readme_assets/sql-server-manager.png)
-   ![db-local-tcpip](readme_assets/db-local-tcpip.png)
+   > ![sql-server-manager](readme_assets/sql-server-manager.png) > ![db-local-tcpip](readme_assets/db-local-tcpip.png)
 
 # **Support** 🤩
 
