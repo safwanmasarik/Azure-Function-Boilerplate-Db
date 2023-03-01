@@ -15,7 +15,7 @@ This repository showcases:
 - ⚡️ Good practice table schemas
 - ♨️ Good practice post deployment scripts for seeding data
 
-## Back-End API Technology
+## Techstack
 
 - Visual Studio Database Project
 - Microsoft SQL Server
