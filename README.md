@@ -52,10 +52,10 @@ This repository showcases:
 
 ## Access the database data via API
 
-1. As part of microservice architecture, the api source code is maintained in a separate repository built with Azure Function Node.js in below repository:
-   https://github.com/safwanmasarik/Azure-Function-Boilerplate-Api.
-2. An issue that may be faced is the API is unable to connect to local database at port 1443, as the db refuses the connection.
-3. To solve this, open the [SQL Server Configuration Manager](https://learn.microsoft.com/en-us/sql/relational-databases/sql-server-configuration-manager?view=sql-server-ver16) as an administrator and enable TCP connections which are disabled by default.
+1. As part of microservice architecture, the api source code is maintained in separate repository as below:
+   1. https://github.com/safwanmasarik/Azure-Function-Boilerplate-Api (built with Azure Function Node.js).
+1. An issue that may be faced is the API is unable to connect to local database at port 1443, as the db refuses the connection.
+1. To solve this, open the [SQL Server Configuration Manager](https://learn.microsoft.com/en-us/sql/relational-databases/sql-server-configuration-manager?view=sql-server-ver16) as an administrator and enable TCP connections which are disabled by default.
    > ![sql-server-manager](readme_assets/sql-server-manager.png) > ![db-local-tcpip](readme_assets/db-local-tcpip.png)
 
 # **Support** 🤩
